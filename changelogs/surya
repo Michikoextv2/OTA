@@ -1,0 +1,42 @@
+This is Unofficial Build
+To keep Community Alive in POCO X3 NFC Surya/Karna
+
+==============================
+- Firmware is now pre-included.
+- Use TWRP 3.7.1 or OrangeFox recovery.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+
+==============================
+- Credits:
+khayloaf for help & fix
+Skyy for base tree
+ᴍᴀɴɪᴘᴜʟᴀᴛᴏʀ for related stuff
+All Dev Magang
+All Dev POCO X3 NFC
+LineageOS Team & Contributors
+
+Device changes:
+==============================
+surya: bringup @Lunaris-AOSP
+surya: Sync with vendor
+surya: sign every build with private keys if available
+surya: Drop bootable/deprecated-ota from Android.bp
+surya: Drop qcom wlan from Android.bp
+surya: Change status bar header height on Keyguard
+surya: overlay: Remove Dialer overlay
+surya: Setup DeviceAsWebcam
+surya: Opt out of VIDEO_ENCODE flag for DeviceAsWebcam
+surya: overlay: Reduce blur radius for Pixel Launcher
+surya: Bump kernel BPF version override to 5.10.239
+surya: Drop libvulkan target that is built by default
+surya: Cleanup more flags
+surya: Inherit common partition reserved sizes
+surya: swtich kawase render
+surya: Set VENDOR_SECURITY_PATCH To PLATFORM
+surya: Disable backpressure propagation in SF
+surya: Introduce Dolby Atmos support
+surya: Enable DM file pre-opting to reduce first boot time
+
+Kernel
+Always build with ksu multianager support
+Always build & implement nomount
