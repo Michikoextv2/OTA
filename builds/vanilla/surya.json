@@ -1,0 +1,15 @@
+{
+  "response": [
+    {
+      "maintainer": "F O X E S K Y",
+      "device": "surya",
+      "filename": "Lunaris-AOSP-surya-Community-3.13-VANILLA-2026110608.zip",
+      "download": "https://sourceforge.net/projects/foxlabs-ota/files/AOSP/Lunaris-AOSP-surya-Community-3.13-VANILLA-2026110608.zip/download",
+      "timestamp": 1793955033,
+      "md5": "f01c910676b91a09da277a8d0bdaa10c",
+      "sha256": "7502b8f5c23ee55302b47156282ba26f2d1070dc85af30d88e32dfb05c025662",
+      "size": 2562895691,
+      "version": "3.13"
+    }
+  ]
+}
