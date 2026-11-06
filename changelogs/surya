@@ -1,0 +1,50 @@
+This is Unofficial Build
+To keep Community Alive in POCO X3 NFC Surya/Karna
+
+==============================
+- Firmware is now pre-included.
+- Use TWRP OrangeFox recovery.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+
+==============================
+- Credits:
+==============================
+khayloaf for help & fix
+kardebayan for related dt vt upstream based
+ᴍᴀɴɪᴘᴜʟᴀᴛᴏʀ for related stuff
+All Dev Magang
+All Dev POCO X3 NFC
+LineageOS Team & Contributors
+
+=============================
+- Device
+==============================
+surya: change defconfig
+surya: fastbootd is now enabled by default
+surya: Drop UFFD flag
+!fixup surya: Enable charging control bypass mode
+surya: Build every rom with firmware blobs
+surya: include ReservedSize
+surya: parts: Add missing doze settings help strings
+surya: Use /sys/touchpanel/double_tap for double tap to wake
+surya: patch com.vidhance.node.eis.so with libui-v34
+surya: Patch com.vidhance.node.eis.so to allocate GraphicBuffer with new size
+surya: Patch audio to load libaudioroute-v34.so
+surya: parts: Remove help dialog
+surya: Include MiuiCamera if available
+surya: Set vendor secpatch to platform
+surya: Switch to Kawase2 render engine blur algorithm
+surya: Enable display smooth motion
+surya: Disable backpressure propagation in SF
+surya: Update XiaomiParts from sm8450-common
+surya: parts: Defer applying divider
+surya: Switch to Sony Dolby Atmos
+surya: Define AAPT config
+surya: Enable DM file pre-opting to reduce first boot time
+Revert sm6150-common: overlay: Disable high performance transitions
+
+====================================
+- Kernel
+====================================
+Always build with ksu multianager support
+Always build & implement nomount
