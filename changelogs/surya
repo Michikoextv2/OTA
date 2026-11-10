@@ -10,7 +10,7 @@ To keep Community Alive in POCO X3 NFC Surya/Karna
 - Credits:
 khayloaf for help & fix
 Skyy for base tree
-ᴍᴀɴɪᴘᴜʟᴀᴛᴏʀ for related stuff
+MANIPVLATOR for related stuff
 All Dev Magang
 All Dev POCO X3 NFC
 LineageOS Team & Contributors
@@ -38,5 +38,5 @@ surya: Introduce Dolby Atmos support
 surya: Enable DM file pre-opting to reduce first boot time
 
 Kernel
-Always build with ksu multianager support
+Always build with ksu multimanager support
 Always build & implement nomount
