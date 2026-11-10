@@ -11,7 +11,7 @@ To keep Community Alive in POCO X3 NFC Surya/Karna
 ==============================
 khayloaf for help & fix
 kardebayan for related dt vt upstream based
-ᴍᴀɴɪᴘᴜʟᴀᴛᴏʀ for related stuff
+MANIPVLATOR for related stuff
 All Dev Magang
 All Dev POCO X3 NFC
 LineageOS Team & Contributors
@@ -46,5 +46,5 @@ Revert sm6150-common: overlay: Disable high performance transitions
 ====================================
 - Kernel
 ====================================
-Always build with ksu multianager support
+Always build with ksu multimanager support
 Always build & implement nomount
