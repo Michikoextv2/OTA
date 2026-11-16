@@ -1,0 +1,49 @@
+This is Unofficial Build
+To keep Community Alive in POCO X3 NFC Surya/Karna
+
+==============================
+- Firmware is now pre-included.
+- Use TWRP 3.7.1 or OrangeFox recovery.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+
+==============================
+- Credits:
+khayloaf for help & fix
+kardebayan for related commit upstream dt vt based
+MANIPVLATOR for related stuff
+All Dev Magang
+All Dev POCO X3 NFC
+LineageOS Team & Contributors
+
+Device changes:
+==============================
+switch dt vt based LineageOs sm6150 common
+surya: bringup @Lunaris-AOSP
+!fixup surya: Enable charging control bypass mode
+surya: Include MiuiCamera if available
+surya: Build every rom with private keys
+surya: Build every rom with firmware blobs
+surya: Switch to Sony Dolby Atmos
+surya: Inherit common partition reserved sizes
+surya: Use /sys/touchpanel/double_tap for double tap to wake
+surya: patch com.vidhance.node.eis.so with libui-v34
+surya: Patch com.vidhance.node.eis.so to allocate GraphicBuffer with new size
+surya: Patch audio to load libaudioroute-v34.so
+Revert "sm6150-common: overlay-lineage: Disable blurs by default"
+surya: Don't latch unsignal buffers
+surya: Import perf boost configs from sweet
+surya: Remove unneeded packages during build
+surya: Allow games to use 120fps
+surya: Enable DM file pre-opting to reduce first boot time
+surya: rootdir: Restrict apps access to /proc/net/unix
+surya: switch to kawase render engine blur algorithm
+surya: Add init to set dalvik props
+surya: rootdir: Set up read ahead values properly
+surya: Update XiaomiParts from sm8450-common
+surya: parts: Defer applying divider
+surya: Define AAPT config
+
+Kernel:
+==============================
+Always build with ksu multimanager support ( use manager normal, not spoofed manager )
+Always build & implement nomount
