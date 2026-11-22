@@ -3,12 +3,12 @@
     {
       "maintainer": "F O X E S K Y",
       "device": "surya",
-      "filename": "Lunaris-AOSP-surya-Community-3.13-GMS-2026110610.zip",
-      "download": "https://sourceforge.net/projects/foxlabs-ota/files/AOSP/Lunaris-AOSP-surya-Community-3.13-GMS-2026110610.zip/download",
-      "timestamp": 1793959714,
-      "md5": "cf36a809d9d7d6f3e9b8b88f2ef7d1a8",
-      "sha256": "9cfe3b4aad875fc28535e92ca27d1b0c2d40c70c7040f74dcf0ea37ba5834388",
-      "size": 3312777377,
+      "filename": "Lunaris-AOSP-surya-Community-3.13-GMS-2026112203.zip",
+      "download": "https://sourceforge.net/projects/foxlabs-ota/files/AOSP/Lunaris-AOSP-surya-Community-3.13-GMS-2026112203.zip/download",
+      "timestamp": 1795318526,
+      "md5": "111947f870b192f910fad33cca868619",
+      "sha256": "1785c14b130a59c50b74fe395639a0489b4d75a7466fb830b6bffc1cefa3059d",
+      "size": 3291287938,
       "version": "3.13"
     }
   ]
